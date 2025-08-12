@@ -125,3 +125,38 @@ header div{
     bottom: -100px;
     left: -35px;
 }
+.dn{
+    display: none;
+}
+
+
+.line-with-content {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #333;
+  margin-top: 400px;
+}
+
+.line-with-content::before,
+.line-with-content::after {
+  content: "";
+  flex: 1;
+  border-bottom: 2px solid #3C3C3C;
+}
+.content span{
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+}
+.content {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* space between text and image */
+  margin: 0 25px;
+}
+
+/* .content img {
+  width: 30px; 
+  height: auto;
+} */
