@@ -236,3 +236,9 @@ header div{
     align-items: center;
     margin-top: 70px;
 }
+.child1{
+    position: absolute;
+    right: -350px;
+    top: -90px;
+    z-index: 1;
+}
