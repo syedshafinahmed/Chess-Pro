@@ -41,3 +41,43 @@ header div{
     justify-content: space-between;
     gap: 28px;
 }
+
+.banner-left h3{
+    font-size: 48px;
+    font-weight: bold;
+}
+.banner-left p{
+    font-size: 18px;
+}
+.banner-left button{
+    width: 193px;
+    height: 49px;
+    background-color: #313131;
+    border-radius: 7px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    margin-top: 30px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.banner-right{
+    display: flex;
+    position: relative;
+    /* border: 1px solid goldenrod; */
+    padding-right: 200px;
+}
+.img1{
+    width: 423px;
+    height: 433px;
+}
+.img2{
+    width: 426px;
+    height: 346px;
+    position: absolute;
+    right: -35px;
+}
