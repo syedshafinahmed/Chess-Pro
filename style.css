@@ -48,6 +48,8 @@ header div{
 }
 .banner-left p{
     font-size: 18px;
+    margin-top: 27px;
+    margin-bottom: 27px;
 }
 .banner-left button{
     width: 193px;
@@ -72,12 +74,21 @@ header div{
     padding-right: 200px;
 }
 .img1{
-    width: 423px;
-    height: 433px;
+    width: 523px;
+    height: 533px;
 }
 .img2{
-    width: 426px;
-    height: 346px;
+    width: 526px;
+    height: 446px;
     position: absolute;
     right: -35px;
+}
+.box{
+    width: 867px;
+    height: 135px;
+    background-color: #313131;
+    position: absolute;
+    border-radius: 8px;
+    bottom: -20px;
+    left: -109px;
 }
