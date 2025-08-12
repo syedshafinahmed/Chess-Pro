@@ -169,6 +169,12 @@ header div{
     width: 411px;
     height: 223px;
     background-color: #313131;
-    padding: 45px 25px 25px 25px;
+    /* padding: 45px 50px 0px 30px; */
+    padding: 50px 30px 0px 30px;
     border-radius: 10px;
+    position: relative;
+}
+.oneimg{
+    position: absolute;
+    top: -30px;
 }
