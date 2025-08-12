@@ -242,3 +242,28 @@ header div{
     top: -90px;
     z-index: 1;
 }
+.latestgames1 span{
+    color: #7B7B7B;
+    margin-bottom: 2px;
+}
+.latestgames1 p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 2px;
+    margin-top: 0px;
+}
+.latestgames1{
+    width: 341px;
+    height: 153px;
+    background-color: #313131;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    border-radius: 12px;
+}
+.latestgames{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
