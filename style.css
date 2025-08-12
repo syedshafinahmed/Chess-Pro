@@ -190,13 +190,20 @@ header div{
 .parent{
     position: relative;
     z-index: 3;
-    margin-top: 0px;
 }
-.parent span{
+/* .parent span{
     z-index: 3;
-}
+} */
 .child{
     position: absolute;
     right: -460px;
     top: -90px;
+    z-index: 1;
+}
+
+.picture{
+    z-index: 1;
+}
+.text{
+    z-index: 2;
 }
