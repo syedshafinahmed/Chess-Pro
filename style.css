@@ -160,3 +160,15 @@ header div{
   width: 30px; 
   height: auto;
 } */
+
+.one h3{
+    font-size: 28px;
+    font-weight: 600;
+}
+.one{
+    width: 411px;
+    height: 223px;
+    background-color: #313131;
+    padding: 45px 25px 25px 25px;
+    border-radius: 10px;
+}
