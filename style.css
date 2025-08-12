@@ -186,3 +186,17 @@ header div{
     align-items: center;
     margin-top: 80px;
 }
+
+.parent{
+    position: relative;
+    z-index: 3;
+    margin-top: 0px;
+}
+.parent span{
+    z-index: 3;
+}
+.child{
+    position: absolute;
+    right: -460px;
+    top: -90px;
+}
