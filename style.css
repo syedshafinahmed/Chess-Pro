@@ -116,3 +116,12 @@ header div{
 .box  section{
     padding-bottom: 25px;
 }
+.logo{
+    position: relative;
+}
+
+.box2{
+    position: absolute;
+    bottom: -100px;
+    left: -5px;
+}
