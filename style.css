@@ -207,3 +207,36 @@ header div{
 .text{
     z-index: 2;
 }
+
+.playersleft1 div{
+    width: 556px;
+    height: 180px;
+    background-color: #313131;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0px 12px 12px 0px;
+}
+.playersleft1{
+    display: flex;
+    margin-bottom: 30px;
+}
+.playersleft1 img{
+    border-radius: 12px 0px 0px 12px;
+}
+.playersleft1 h3{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+.playersleft1 span{
+    color: #656565;
+}
+.playersleft1 p{
+    color: #9B9B9B;
+}
+.players{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
